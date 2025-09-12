@@ -8,10 +8,11 @@
     <meta name="author" content="" />
     <title>Blog Home - Start Bootstrap Template</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="shortcut icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
     <!-- Core theme CSS (includes Bootstrap)-->
     {{-- <link href="css/styles.css" rel="stylesheet" /> --}}
     <link rel="stylesheet" href="{{asset('css/styles.css')}}">
+    <link rel="stylesheet" href="{{asset('css/custom.css')}}">
 </head>
 
 <body>
@@ -46,7 +47,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     {{-- <script src="js/scripts.js"></script> --}}
-    <script src="{{asset('js/scrpts.js')}}"></script>
+    <script src="{{asset('js/scripts.js')}}"></script>
 </body>
 
 </html>

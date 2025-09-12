@@ -1,0 +1,13 @@
+
+
+.post-card .card-body p.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    display: -moz-box;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+
+}
